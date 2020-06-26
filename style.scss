@@ -33,13 +33,15 @@ $White: hsl(0, 0%, 100%);
 
 //Family: [Raleway](https://fonts.google.com/specimen/Raleway)
 //Weights: 400, 700
-$Headings: 'Raleway', sans-serif;
+$Headings: 'Raleway',
+sans-serif;
 
 //Body
 
 //Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 //Weights: 400, 700
-$Paragraph: 'Open Sans', sans-serif;
+$Paragraph: 'Open Sans',
+sans-serif;
 
 //==========================
 
@@ -57,13 +59,13 @@ $Paragraph: 'Open Sans', sans-serif;
     width: 280px;
     height: 60px;
     font-family: $Paragraph;
-    font-size: 0.8rem; 
+    font-size: 0.8rem;
     font-weight: 400;
     background-color: $Blue;
     color: $White;
     border: none;
     border-radius: 30px;
-    box-shadow: 1px 1px 4px #000; 
+    box-shadow: 1px 1px 4px #000;
 }
 
 body {
@@ -74,20 +76,20 @@ body {
     header {
         .container {
             overflow: hidden;
-            
+
             img {
                 height: 50px;
                 float: left;
             }
-            
+
             ul {
                 color: $White;
                 list-style-type: none;
                 line-height: 50px;
                 float: right;
-                font-size: 0.8rem;  
+                font-size: 0.8rem;
                 font-weight: 400;
-                
+
                 li {
                     display: inline-block;
                     margin-left: 50px;
@@ -95,41 +97,69 @@ body {
             }
         }
     }
-    
+
     main {
         .section-1 {
-                text-align: center;
+            text-align: center;
+
+            img {
+                height: 530px;
+            }
+
+            .bg-1 {
+                height: 350px;
+                background-image: url(./images/bg-curvy-desktop.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-position: 0 25px;
+                color: $White;
+                padding: 0 380px;
+
+                h1 {
+                    font-family: $Headings;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    margin-top: 50px;
+                }
+
+                p {
+                    margin-top: 25px;
+                    line-height: 25px;
+                    padding: 0 50px;
+                }
+
+                button {
+                    @extend %button;
+                    margin-top: 25px;
+                }
+            }
+        }
+
+        .section-2 {
+            background-color: #181e2a;
+            color: $White;
+            text-align: center;
+            padding: 50px 250px;
+            
+            .label {
+                width: 40%; 
+                padding: 0 25px;
+                margin: 50px 0px;
+                display: inline-block;
+                
                 img {
-                    height: 530px;
+                    height: 80px;
                 }
                 
-                .bg-1 {
-                    height: 350px;
-                    background-image: url(./images/bg-curvy-desktop.svg);
-                    background-repeat: no-repeat;
-                    background-size: 100% 100%;
-                    background-position: 0 25px;
-                    color: $White;
-                    padding: 0 380px;
-                    
-                    h1 {
-                        font-family: $Headings;
-                        font-size: 2rem;
-                        font-weight: 700; 
-                        margin-top: 50px;
-                    }
-                    
-                    p {
-                        margin-top: 25px;
-                        line-height: 25px; 
-                        padding: 0 50px;
-                    }
-                    
-                    button {
-                        @extend %button;
-                        margin-top: 25px;
-                    }
+                h3 {
+                    margin-top: 20px;
                 }
+                
+                p {
+                    font-size: 0.8rem;
+                    margin-top: 20px;
+                }
+            }
         }
     }
 }

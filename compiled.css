@@ -74,5 +74,27 @@ body main .section-1 .bg-1 p {
 body main .section-1 .bg-1 button {
   margin-top: 25px;
 }
+body main .section-2 {
+  background-color: #181e2a;
+  color: white;
+  text-align: center;
+  padding: 50px 250px;
+}
+body main .section-2 .label {
+  width: 40%;
+  padding: 0 25px;
+  margin: 50px 0px;
+  display: inline-block;
+}
+body main .section-2 .label img {
+  height: 80px;
+}
+body main .section-2 .label h3 {
+  margin-top: 20px;
+}
+body main .section-2 .label p {
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
 
 /*# sourceMappingURL=compiled.css.map */
