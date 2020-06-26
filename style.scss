@@ -1,0 +1,85 @@
+//Layout
+//- Mobile: 375px
+//- Desktop: 1440px
+
+
+//Primary Colors
+
+//(intro and email sign up background)
+$Dark-Blue: hsl(217, 28%, 15%);
+//(main background)
+$Dark-Blue: hsl(218, 28%, 13%);
+//(footer background)
+$Dark-Blue: hsl(216, 53%, 9%);
+//(testimonials background)
+$Dark-Blue: hsl(219, 30%, 18%);
+
+//Accent
+//(inside call-to-action gradient)
+$Cyan: hsl(176, 68%, 64%);
+//(inside call-to-action gradient)
+$Blue: hsl(198, 60%, 50%);
+
+//Neutral
+$White: hsl(0, 0%, 100%);
+
+
+//Typography
+
+//Body Copy
+//Font size: 14px
+
+//Headings, Call-to-actions, Header Navigation
+
+//Family: [Raleway](https://fonts.google.com/specimen/Raleway)
+//Weights: 400, 700
+//font-family: 'Raleway', sans-serif;
+
+//Body
+
+//Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+//Weights: 400, 700
+//font-family: 'Open Sans', sans-serif;
+
+//==========================
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 70px 80px;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: $Dark-Blue;
+
+    header {
+        .container {
+            overflow: hidden;
+            
+            img {
+                height: 50px;
+                float: left;
+            }
+            
+            ul {
+                color: $White;
+                list-style-type: none;
+                line-height: 50px;
+                float: right;
+                font-size: 0.8rem;  
+                font-weight: 400;
+                
+                li {
+                    display: inline-block;
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+}

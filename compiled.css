@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 70px 80px;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #202a3c;
+}
+body header .container {
+  overflow: hidden;
+}
+body header .container img {
+  height: 50px;
+  float: left;
+}
+body header .container ul {
+  color: white;
+  list-style-type: none;
+  line-height: 50px;
+  float: right;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+body header .container ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+/*# sourceMappingURL=compiled.css.map */
