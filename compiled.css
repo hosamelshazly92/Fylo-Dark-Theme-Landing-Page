@@ -5,7 +5,20 @@
 }
 
 .container {
-  padding: 70px 80px;
+  padding: 80px 80px;
+}
+
+body main .section-1 .bg-1 button {
+  width: 280px;
+  height: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  background-color: #339ecc;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 1px 1px 4px #000;
 }
 
 body {
@@ -31,6 +44,35 @@ body header .container ul {
 body header .container ul li {
   display: inline-block;
   margin-left: 50px;
+}
+body main .section-1 {
+  text-align: center;
+}
+body main .section-1 img {
+  height: 530px;
+}
+body main .section-1 .bg-1 {
+  height: 350px;
+  background-image: url(./images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0 25px;
+  color: white;
+  padding: 0 380px;
+}
+body main .section-1 .bg-1 h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 50px;
+}
+body main .section-1 .bg-1 p {
+  margin-top: 25px;
+  line-height: 25px;
+  padding: 0 50px;
+}
+body main .section-1 .bg-1 button {
+  margin-top: 25px;
 }
 
 /*# sourceMappingURL=compiled.css.map */
