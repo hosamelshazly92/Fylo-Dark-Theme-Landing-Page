@@ -154,6 +154,7 @@ body {
                 }
 
                 h3 {
+                    font-family: $Headings;
                     margin-top: 20px;
                 }
 
@@ -245,6 +246,57 @@ body {
                             font-size: 0.8rem;
                         }
                     }
+                }
+            }
+        }
+
+        .section-5 {
+            background-color: $bg;
+            color: $White;
+            text-align: center;
+            padding-top: 120px;
+            height: 260px;
+
+            div {
+                background-color: $Dark-Blue;
+                width: 60%;
+                margin: auto;
+                padding: 40px 80px;
+                border-radius: 15px;
+                box-shadow: 2px 2px 6px #000;
+                overflow: hidden;
+
+                h1 {
+                    font-family: $Headings;
+                    font-size: 2rem;
+                }
+
+                p {
+                    margin: 40px 0;
+                    font-size: 1rem;
+                }
+
+                input {
+                    width: 60%;
+                    height: 50px;
+                    float: left;
+                    border: none;
+                    border-radius: 30px;
+                    box-shadow: 1px 1px 4px #000;
+                    padding-left: 25px;
+                    
+                    &::placeholder {
+                        opacity: 0.6;
+                        font-weight: 700;
+                    }
+                }
+
+                button {
+                    @extend %button;
+                    width: 30%;
+                    height: 50px;
+                    float: right;
+                    font-weight: 700;
                 }
             }
         }

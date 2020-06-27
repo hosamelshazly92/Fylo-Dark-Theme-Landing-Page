@@ -8,7 +8,7 @@
   padding: 80px 80px;
 }
 
-body main .section-1 .bg-1 button {
+body main .section-5 div button, body main .section-1 .bg-1 button {
   width: 280px;
   height: 60px;
   font-family: "Open Sans", sans-serif;
@@ -90,6 +90,7 @@ body main .section-2 .label img {
   height: 80px;
 }
 body main .section-2 .label h3 {
+  font-family: "Raleway", sans-serif;
   margin-top: 20px;
 }
 body main .section-2 .label p {
@@ -163,6 +164,49 @@ body main .section-4 .container .slide div img {
 }
 body main .section-4 .container .slide div p {
   font-size: 0.8rem;
+}
+body main .section-5 {
+  background-color: #181e2a;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+  height: 260px;
+}
+body main .section-5 div {
+  background-color: #202a3c;
+  width: 60%;
+  margin: auto;
+  padding: 40px 80px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px #000;
+  overflow: hidden;
+}
+body main .section-5 div h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+body main .section-5 div p {
+  margin: 40px 0;
+  font-size: 1rem;
+}
+body main .section-5 div input {
+  width: 60%;
+  height: 50px;
+  float: left;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 1px 1px 4px #000;
+  padding-left: 25px;
+}
+body main .section-5 div input::placeholder {
+  opacity: 0.6;
+  font-weight: 700;
+}
+body main .section-5 div button {
+  width: 30%;
+  height: 50px;
+  float: right;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=compiled.css.map */
