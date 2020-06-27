@@ -136,5 +136,33 @@ body main .section-3 .container div .link img {
   padding-left: 14px;
   padding-left: 14px;
 }
+body main .section-4 .container {
+  background-color: #181e2a;
+  background-image: url(./images/bg-quotes.png);
+  background-repeat: no-repeat;
+  background-position: 80px 50px;
+  text-align: center;
+}
+body main .section-4 .container .slide {
+  width: 30%;
+  color: white;
+  background-color: #202a3c;
+  display: inline-block;
+  padding: 40px 30px 30px 30px;
+  margin: 0 15px;
+  text-align: left;
+}
+body main .section-4 .container .slide div {
+  margin-top: 20px;
+}
+body main .section-4 .container .slide div img {
+  width: 50px;
+  border-radius: 100%;
+  margin-right: 20px;
+  float: left;
+}
+body main .section-4 .container .slide div p {
+  font-size: 0.8rem;
+}
 
 /*# sourceMappingURL=compiled.css.map */

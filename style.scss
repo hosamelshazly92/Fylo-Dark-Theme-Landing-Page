@@ -164,7 +164,7 @@ body {
             }
         }
 
-        .section-3 {            
+        .section-3 {
             .container {
                 background-color: $bg;
                 overflow: hidden;
@@ -196,7 +196,7 @@ body {
                     .link {
                         padding-top: 0;
                         padding-left: 0;
-                        
+
                         a {
                             color: $Cyan;
                             font-size: 1rem;
@@ -208,6 +208,41 @@ body {
                             height: 22px;
                             padding-left: 14px;
                             padding-left: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-4 {
+            .container {
+                background-color: $bg;
+                background-image: url(./images/bg-quotes.png);
+                background-repeat: no-repeat;
+                background-position: 80px 50px;
+                text-align: center;
+
+                .slide {
+                    width: 30%;
+                    color: $White;
+                    background-color: $Dark-Blue;
+                    display: inline-block;
+                    padding: 40px 30px 30px 30px;
+                    margin: 0 15px;
+                    text-align: left;
+
+                    div {
+                        margin-top: 20px;
+
+                        img {
+                            width: 50px;
+                            border-radius: 100%;
+                            margin-right: 20px;
+                            float: left;
+                        }
+
+                        p {
+                            font-size: 0.8rem;
                         }
                     }
                 }
