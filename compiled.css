@@ -96,5 +96,45 @@ body main .section-2 .label p {
   font-size: 0.8rem;
   margin-top: 20px;
 }
+body main .section-3 .container {
+  background-color: #181e2a;
+  overflow: hidden;
+}
+body main .section-3 .container img {
+  width: 50%;
+  float: left;
+}
+body main .section-3 .container div {
+  width: 50%;
+  float: left;
+  color: white;
+  padding-top: 100px;
+  padding-left: 60px;
+}
+body main .section-3 .container div h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 50px;
+}
+body main .section-3 .container div p {
+  margin-top: 25px;
+  line-height: 25px;
+}
+body main .section-3 .container div .link {
+  padding-top: 0;
+  padding-left: 0;
+}
+body main .section-3 .container div .link a {
+  color: #65e2d9;
+  font-size: 1rem;
+  float: left;
+}
+body main .section-3 .container div .link img {
+  width: 36px;
+  height: 22px;
+  padding-left: 14px;
+  padding-left: 14px;
+}
 
 /*# sourceMappingURL=compiled.css.map */

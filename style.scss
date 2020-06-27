@@ -23,6 +23,8 @@ $Blue: hsl(198, 60%, 50%);
 //Neutral
 $White: hsl(0, 0%, 100%);
 
+$bg: #181e2a;
+
 
 //Typography
 
@@ -136,28 +138,78 @@ body {
         }
 
         .section-2 {
-            background-color: #181e2a;
+            background-color: $bg;
             color: $White;
             text-align: center;
             padding: 50px 250px;
-            
+
             .label {
-                width: 40%; 
+                width: 40%;
                 padding: 0 25px;
                 margin: 50px 0px;
                 display: inline-block;
-                
+
                 img {
                     height: 80px;
                 }
-                
+
                 h3 {
                     margin-top: 20px;
                 }
-                
+
                 p {
                     font-size: 0.8rem;
                     margin-top: 20px;
+                }
+            }
+        }
+
+        .section-3 {            
+            .container {
+                background-color: $bg;
+                overflow: hidden;
+
+                img {
+                    width: 50%;
+                    float: left;
+                }
+
+                div {
+                    width: 50%;
+                    float: left;
+                    color: $White;
+                    padding-top: 100px;
+                    padding-left: 60px;
+
+                    h1 {
+                        font-family: $Headings;
+                        font-size: 2rem;
+                        font-weight: 700;
+                        margin-top: 50px;
+                    }
+
+                    p {
+                        margin-top: 25px;
+                        line-height: 25px;
+                    }
+
+                    .link {
+                        padding-top: 0;
+                        padding-left: 0;
+                        
+                        a {
+                            color: $Cyan;
+                            font-size: 1rem;
+                            float: left;
+                        }
+
+                        img {
+                            width: 36px;
+                            height: 22px;
+                            padding-left: 14px;
+                            padding-left: 14px;
+                        }
+                    }
                 }
             }
         }
