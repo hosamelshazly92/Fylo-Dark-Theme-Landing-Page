@@ -13,21 +13,21 @@ body main .section-5 div button, body main .section-1 .bg-1 button {
   height: 60px;
   font-family: "Open Sans", sans-serif;
   font-size: 0.8rem;
-  font-weight: 400;
+  font-weight: 700;
   background-color: #339ecc;
   color: white;
   border: none;
   border-radius: 30px;
-  box-shadow: 1px 1px 4px #000;
+  box-shadow: 2px 2px 6px #0c1524, 1px 1px 3px #0c1524;
 }
 
 body {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
-  background-color: #202a3c;
 }
 body header .container {
   overflow: hidden;
+  background-color: #1c2230;
 }
 body header .container img {
   height: 50px;
@@ -46,6 +46,7 @@ body header .container ul li {
   margin-left: 50px;
 }
 body main .section-1 {
+  background-color: #1c2230;
   text-align: center;
 }
 body main .section-1 img {
@@ -55,8 +56,8 @@ body main .section-1 .bg-1 {
   height: 350px;
   background-image: url(./images/bg-curvy-desktop.svg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: 0 25px;
+  background-size: 100% 120%;
+  background-position: 0px -50px;
   color: white;
   padding: 0 380px;
 }
@@ -72,6 +73,7 @@ body main .section-1 .bg-1 p {
   padding: 0 50px;
 }
 body main .section-1 .bg-1 button {
+  font-size: 1rem;
   margin-top: 25px;
 }
 body main .section-2 {
@@ -147,8 +149,9 @@ body main .section-4 .container {
 body main .section-4 .container .slide {
   width: 30%;
   color: white;
-  background-color: #202a3c;
+  background-color: #21293c;
   display: inline-block;
+  border-radius: 10px;
   padding: 40px 30px 30px 30px;
   margin: 0 15px;
   text-align: left;
@@ -170,32 +173,33 @@ body main .section-5 {
   color: white;
   text-align: center;
   padding-top: 120px;
-  height: 260px;
 }
 body main .section-5 div {
-  background-color: #202a3c;
+  background-color: #181e2a;
   width: 60%;
   margin: auto;
+  margin-bottom: -120px;
   padding: 40px 80px;
   border-radius: 15px;
-  box-shadow: 2px 2px 6px #000;
+  box-shadow: 2px 2px 6px #0c1524, 1px 1px 3px #0c1524;
   overflow: hidden;
+  position: relative;
 }
 body main .section-5 div h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 body main .section-5 div p {
   margin: 40px 0;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 body main .section-5 div input {
   width: 60%;
-  height: 50px;
+  height: 40px;
   float: left;
   border: none;
   border-radius: 30px;
-  box-shadow: 1px 1px 4px #000;
+  box-shadow: 2px 2px 6px #0c1524, 1px 1px 3px #0c1524;
   padding-left: 25px;
 }
 body main .section-5 div input::placeholder {
@@ -204,9 +208,75 @@ body main .section-5 div input::placeholder {
 }
 body main .section-5 div button {
   width: 30%;
-  height: 50px;
+  height: 40px;
   float: right;
-  font-weight: 700;
+}
+body footer {
+  color: white;
+  background-color: #0c1524;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+body footer .container .top {
+  margin-bottom: 40px;
+}
+body footer .container .top img {
+  height: 50px;
+}
+body footer .container .bottom {
+  overflow: hidden;
+}
+body footer .container .bottom .part-1 {
+  width: 33.3333333333%;
+  float: left;
+}
+body footer .container .bottom .part-2,
+body footer .container .bottom .part-3,
+body footer .container .bottom .part-4,
+body footer .container .bottom .part-5 {
+  width: 16.6666666667%;
+  float: left;
+}
+body footer .container .bottom .part-1 img {
+  float: left;
+  width: 15px;
+}
+body footer .container .bottom .part-1 p {
+  float: right;
+  width: 90%;
+  font-size: 0.8rem;
+}
+body footer .container .bottom .part-2 div {
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+body footer .container .bottom .part-2 div img {
+  float: left;
+  height: 15px;
+  margin-right: 15px;
+}
+body footer .container .bottom .part-2 div p {
+  font-size: 0.8rem;
+  line-height: 15px;
+}
+body footer .container .bottom .part-3 ul,
+body footer .container .bottom .part-4 ul {
+  float: right;
+  list-style-type: none;
+}
+body footer .container .bottom .part-3 ul li,
+body footer .container .bottom .part-4 ul li {
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+body footer .container .bottom .part-5 img {
+  float: right;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  padding: 5px;
+  margin-left: 15px;
+  border-radius: 100%;
 }
 
 /*# sourceMappingURL=compiled.css.map */

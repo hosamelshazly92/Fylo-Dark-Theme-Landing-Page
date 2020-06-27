@@ -6,13 +6,13 @@
 //Primary Colors
 
 //(intro and email sign up background)
-$Dark-Blue: hsl(217, 28%, 15%);
+$Header-Dark-Blue: #1c2230;
 //(main background)
-$Dark-Blue: hsl(218, 28%, 13%);
+$Main-Dark-Blue: #181e2a;
 //(footer background)
-$Dark-Blue: hsl(216, 53%, 9%);
+$Footer-Dark-Blue: #0c1524;
 //(testimonials background)
-$Dark-Blue: hsl(219, 30%, 18%);
+$Slide-Dark-Blue: #21293c;
 
 //Accent
 //(inside call-to-action gradient)
@@ -22,8 +22,6 @@ $Blue: hsl(198, 60%, 50%);
 
 //Neutral
 $White: hsl(0, 0%, 100%);
-
-$bg: #181e2a;
 
 
 //Typography
@@ -62,22 +60,22 @@ sans-serif;
     height: 60px;
     font-family: $Paragraph;
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 700;
     background-color: $Blue;
     color: $White;
     border: none;
     border-radius: 30px;
-    box-shadow: 1px 1px 4px #000;
+    box-shadow: 2px 2px 6px $Footer-Dark-Blue, 1px 1px 3px $Footer-Dark-Blue;
 }
 
 body {
     font-size: 14px;
     font-family: $Paragraph;
-    background-color: $Dark-Blue;
 
     header {
         .container {
             overflow: hidden;
+            background-color: $Header-Dark-Blue;
 
             img {
                 height: 50px;
@@ -102,6 +100,7 @@ body {
 
     main {
         .section-1 {
+            background-color: $Header-Dark-Blue;
             text-align: center;
 
             img {
@@ -112,8 +111,8 @@ body {
                 height: 350px;
                 background-image: url(./images/bg-curvy-desktop.svg);
                 background-repeat: no-repeat;
-                background-size: 100% 100%;
-                background-position: 0 25px;
+                background-size: 100% 120%;
+                background-position: 0px -50px;
                 color: $White;
                 padding: 0 380px;
 
@@ -132,13 +131,14 @@ body {
 
                 button {
                     @extend %button;
+                    font-size: 1rem;
                     margin-top: 25px;
                 }
             }
         }
 
         .section-2 {
-            background-color: $bg;
+            background-color: $Main-Dark-Blue;
             color: $White;
             text-align: center;
             padding: 50px 250px;
@@ -167,7 +167,7 @@ body {
 
         .section-3 {
             .container {
-                background-color: $bg;
+                background-color: $Main-Dark-Blue;
                 overflow: hidden;
 
                 img {
@@ -217,7 +217,7 @@ body {
 
         .section-4 {
             .container {
-                background-color: $bg;
+                background-color: $Main-Dark-Blue;
                 background-image: url(./images/bg-quotes.png);
                 background-repeat: no-repeat;
                 background-position: 80px 50px;
@@ -226,8 +226,9 @@ body {
                 .slide {
                     width: 30%;
                     color: $White;
-                    background-color: $Dark-Blue;
+                    background-color: $Slide-Dark-Blue;
                     display: inline-block;
+                    border-radius: 10px;
                     padding: 40px 30px 30px 30px;
                     margin: 0 15px;
                     text-align: left;
@@ -251,40 +252,42 @@ body {
         }
 
         .section-5 {
-            background-color: $bg;
+            background-color: $Main-Dark-Blue;
             color: $White;
             text-align: center;
             padding-top: 120px;
-            height: 260px;
 
             div {
-                background-color: $Dark-Blue;
+                background-color: $Main-Dark-Blue;
                 width: 60%;
                 margin: auto;
+                margin-bottom: -120px;
                 padding: 40px 80px;
                 border-radius: 15px;
-                box-shadow: 2px 2px 6px #000;
+                box-shadow: 2px 2px 6px $Footer-Dark-Blue, 1px 1px 3px $Footer-Dark-Blue;
                 overflow: hidden;
+                position: relative;
+
 
                 h1 {
                     font-family: $Headings;
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                 }
 
                 p {
                     margin: 40px 0;
-                    font-size: 1rem;
+                    font-size: 0.8rem;
                 }
 
                 input {
                     width: 60%;
-                    height: 50px;
+                    height: 40px;
                     float: left;
                     border: none;
                     border-radius: 30px;
-                    box-shadow: 1px 1px 4px #000;
+                    box-shadow: 2px 2px 6px $Footer-Dark-Blue, 1px 1px 3px $Footer-Dark-Blue;
                     padding-left: 25px;
-                    
+
                     &::placeholder {
                         opacity: 0.6;
                         font-weight: 700;
@@ -294,9 +297,98 @@ body {
                 button {
                     @extend %button;
                     width: 30%;
-                    height: 50px;
+                    height: 40px;
                     float: right;
-                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    footer {
+        color: $White;
+        background-color: $Footer-Dark-Blue;
+        padding-top: 120px;
+        padding-bottom: 20px;
+
+        .container {
+            .top {
+                margin-bottom: 40px;
+
+                img {
+                    height: 50px;
+                }
+            }
+
+            .bottom {
+                overflow: hidden;
+
+                .part-1 {
+                    width: (100% / 6)*2;
+                    float: left;
+                }
+
+                .part-2,
+                .part-3,
+                .part-4,
+                .part-5 {
+                    width: (100% / 6);
+                    float: left;
+                }
+
+                .part-1 {
+                    img {
+                        float: left;
+                        width: 15px;
+                    }
+
+                    p {
+                        float: right;
+                        width: 90%;
+                        font-size: 0.8rem;
+                    }
+                }
+
+                .part-2 {
+                    div {
+                        margin-bottom: 15px;
+                        margin-left: 30px;
+
+                        img {
+                            float: left;
+                            height: 15px;
+                            margin-right: 15px;
+                        }
+
+                        p {
+                            font-size: 0.8rem;
+                            line-height: 15px;
+                        }
+                    }
+                }
+
+                .part-3,
+                .part-4 {
+                    ul {
+                        float: right;
+                        list-style-type: none;
+
+                        li {
+                            font-size: 0.8rem;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+
+                .part-5 {
+                    img {
+                        float: right;
+                        width: 30px;
+                        height: 30px;
+                        border: 1px solid $White;
+                        padding: 5px;
+                        margin-left: 15px;
+                        border-radius: 100%;
+                    }
                 }
             }
         }
