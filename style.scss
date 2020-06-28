@@ -394,3 +394,308 @@ body {
         }
     }
 }
+
+@media (max-width: 1150px) {
+    .container {
+        padding: 50px 35px;
+    }
+    
+    body {
+        header {
+            .container {
+                
+
+                img {
+                    height: 50px;
+                }
+
+                ul {
+                    font-size: 1rem;
+
+                    li {
+                    }
+                }
+            }
+        }
+
+        main {
+            .section-1 {
+                padding-top: 90px;
+
+                img {
+                    width: 100%;
+                    padding: 0 35px;
+                }
+
+                .bg-1 {
+                    height: 350px;
+                    background-image: url(./images/bg-curvy-mobile.svg);
+                    background-position: 0px 20px;
+                    padding: 70px 0;
+
+                    h1 {
+                        font-size: 2.5rem;
+                        margin-top: 0px; 
+                    }
+
+                    p {
+                        font-size: 1.5rem;
+                    }
+
+                    button {
+                        margin-top: 50px;
+                        width: 55%; 
+                    }
+                }
+            }
+
+            .section-2 {
+                padding: 270px 50px; 
+
+                .label {
+                    width: 100%;
+                    margin: 50px auto 170px auto;
+                    display: block;
+
+                    h3 {
+                        margin-top: 50px;
+                        font-size: 2rem;
+                    }
+
+                    p {
+                        font-size: 1.5rem;
+                        margin-top: 50px;
+                    }
+                }
+            }
+
+            .section-3 {
+                .container {
+                    background-color: $Main-Dark-Blue;
+                    overflow: hidden;
+
+                    img {
+                        width: 50%;
+                        float: left;
+                    }
+
+                    div {
+                        width: 50%;
+                        float: left;
+                        color: $White;
+                        padding-top: 100px;
+                        padding-left: 60px;
+
+                        h1 {
+                            font-family: $Headings;
+                            font-size: 2rem;
+                            font-weight: 700;
+                            margin-top: 50px;
+                        }
+
+                        p {
+                            margin-top: 25px;
+                            line-height: 25px;
+                        }
+
+                        .link {
+                            padding-top: 0;
+                            padding-left: 0;
+
+                            a {
+                                color: $Cyan;
+                                font-size: 1rem;
+                                float: left;
+                            }
+
+                            img {
+                                width: 36px;
+                                height: 22px;
+                                padding-left: 14px;
+                                padding-left: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .section-4 {
+                .container {
+                    background-color: $Main-Dark-Blue;
+                    background-image: url(./images/bg-quotes.png);
+                    background-repeat: no-repeat;
+                    background-position: 80px 50px;
+                    text-align: center;
+
+                    .slide {
+                        width: 30%;
+                        color: $White;
+                        background-color: $Slide-Dark-Blue;
+                        display: inline-block;
+                        border-radius: 10px;
+                        padding: 40px 30px 30px 30px;
+                        margin: 0 15px;
+                        text-align: left;
+
+                        div {
+                            margin-top: 20px;
+
+                            img {
+                                width: 50px;
+                                border-radius: 100%;
+                                margin-right: 20px;
+                                float: left;
+                            }
+
+                            p {
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .section-5 {
+                background-color: $Main-Dark-Blue;
+                color: $White;
+                text-align: center;
+                padding-top: 120px;
+
+                div {
+                    background-color: $Main-Dark-Blue;
+                    width: 60%;
+                    margin: auto;
+                    margin-bottom: -120px;
+                    padding: 40px 80px;
+                    border-radius: 15px;
+                    box-shadow: 2px 2px 6px $Footer-Dark-Blue, 1px 1px 3px $Footer-Dark-Blue;
+                    overflow: hidden;
+                    position: relative;
+
+
+                    h1 {
+                        font-family: $Headings;
+                        font-size: 1.5rem;
+                    }
+
+                    p {
+                        margin: 40px 0;
+                        font-size: 0.8rem;
+                    }
+
+                    input {
+                        width: 60%;
+                        height: 40px;
+                        float: left;
+                        border: none;
+                        border-radius: 30px;
+                        box-shadow: 2px 2px 6px $Footer-Dark-Blue, 1px 1px 3px $Footer-Dark-Blue;
+                        padding-left: 25px;
+
+                        &::placeholder {
+                            opacity: 0.6;
+                            font-weight: 700;
+                        }
+                    }
+
+                    button {
+                        @extend %button;
+                        width: 30%;
+                        height: 40px;
+                        float: right;
+                    }
+                }
+            }
+        }
+
+        footer {
+            color: $White;
+            background-color: $Footer-Dark-Blue;
+            padding-top: 120px;
+            padding-bottom: 20px;
+
+            .container {
+                .top {
+                    margin-bottom: 40px;
+
+                    img {
+                        height: 50px;
+                    }
+                }
+
+                .bottom {
+                    overflow: hidden;
+
+                    .part-1 {
+                        width: (100% / 6)*2;
+                        float: left;
+                    }
+
+                    .part-2,
+                    .part-3,
+                    .part-4,
+                    .part-5 {
+                        width: (100% / 6);
+                        float: left;
+                    }
+
+                    .part-1 {
+                        img {
+                            float: left;
+                            width: 15px;
+                        }
+
+                        p {
+                            float: right;
+                            width: 90%;
+                            font-size: 0.8rem;
+                        }
+                    }
+
+                    .part-2 {
+                        div {
+                            margin-bottom: 15px;
+                            margin-left: 30px;
+
+                            img {
+                                float: left;
+                                height: 15px;
+                                margin-right: 15px;
+                            }
+
+                            p {
+                                font-size: 0.8rem;
+                                line-height: 15px;
+                            }
+                        }
+                    }
+
+                    .part-3,
+                    .part-4 {
+                        ul {
+                            float: right;
+                            list-style-type: none;
+
+                            li {
+                                font-size: 0.8rem;
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+
+                    .part-5 {
+                        img {
+                            float: right;
+                            width: 30px;
+                            height: 30px;
+                            border: 1px solid $White;
+                            padding: 5px;
+                            margin-left: 15px;
+                            border-radius: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
