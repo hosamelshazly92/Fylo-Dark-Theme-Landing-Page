@@ -53,11 +53,11 @@ body main .section-1 img {
   height: 530px;
 }
 body main .section-1 .bg-1 {
-  height: 350px;
+  height: 380px;
   background-image: url(./images/bg-curvy-desktop.svg);
   background-repeat: no-repeat;
   background-size: 100% 120%;
-  background-position: 0px -50px;
+  background-position: 0px -10px;
   color: white;
   padding: 0 380px;
 }
@@ -367,7 +367,7 @@ body footer .container .bottom .part-5 img {
     padding-left: 0;
   }
   body main .section-4 .container {
-    background-position: 0px 0px;
+    background-position: 20px 0px;
   }
   body main .section-4 .container .slide {
     width: 570px;
@@ -395,7 +395,7 @@ body footer .container .bottom .part-5 img {
   body main .section-5 div {
     width: 100%;
     margin-bottom: -240px;
-    padding: 40px;
+    padding: 50px;
   }
   body main .section-5 div h1 {
     font-size: 2rem;
@@ -424,65 +424,81 @@ body footer .container .bottom .part-5 img {
   body footer {
     padding-top: 240px;
   }
+  body footer .container {
+    padding-top: 150px;
+  }
   body footer .container .top {
-    margin-bottom: 40px;
+    margin-bottom: 100px;
   }
   body footer .container .top img {
-    height: 50px;
-  }
-  body footer .container .bottom {
-    overflow: hidden;
+    height: 100px;
   }
   body footer .container .bottom .part-1 {
-    width: 33.3333333333%;
-    float: left;
+    width: 100%;
+    float: none;
   }
   body footer .container .bottom .part-2,
 body footer .container .bottom .part-3,
 body footer .container .bottom .part-4,
 body footer .container .bottom .part-5 {
-    width: 16.6666666667%;
-    float: left;
+    width: 100%;
+    float: none;
+  }
+  body footer .container .bottom .part-1 {
+    overflow: hidden;
+    margin-bottom: 50px;
   }
   body footer .container .bottom .part-1 img {
     float: left;
-    width: 15px;
+    width: 25px;
   }
   body footer .container .bottom .part-1 p {
     float: right;
     width: 90%;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+  }
+  body footer .container .bottom .part-2 {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 50px;
   }
   body footer .container .bottom .part-2 div {
-    margin-bottom: 15px;
-    margin-left: 30px;
+    margin-bottom: 25px;
+    margin-left: 0;
   }
   body footer .container .bottom .part-2 div img {
     float: left;
-    height: 15px;
-    margin-right: 15px;
+    height: 25px;
+    margin-right: 25px;
   }
   body footer .container .bottom .part-2 div p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     line-height: 15px;
+  }
+  body footer .container .bottom .part-3,
+body footer .container .bottom .part-4 {
+    margin-bottom: 50px;
   }
   body footer .container .bottom .part-3 ul,
 body footer .container .bottom .part-4 ul {
-    float: right;
-    list-style-type: none;
+    float: none;
   }
   body footer .container .bottom .part-3 ul li,
 body footer .container .bottom .part-4 ul li {
-    font-size: 0.8rem;
-    margin-bottom: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+  }
+  body footer .container .bottom .part-5 {
+    text-align: center;
+    padding: 50px 0;
   }
   body footer .container .bottom .part-5 img {
-    float: right;
-    width: 30px;
-    height: 30px;
+    float: none;
+    width: 50px;
+    height: 50px;
     border: 1px solid white;
-    padding: 5px;
-    margin-left: 15px;
+    padding: 10px;
+    margin: 0 20px;
     border-radius: 100%;
   }
 }
