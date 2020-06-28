@@ -264,7 +264,7 @@ body {
                 margin-bottom: -120px;
                 padding: 40px 80px;
                 border-radius: 15px;
-                box-shadow: 2px 2px 6px $Footer-Dark-Blue, 1px 1px 3px $Footer-Dark-Blue;
+                box-shadow: 3px 3px 6px $Footer-Dark-Blue, 2px 2px 4px $Footer-Dark-Blue;
                 overflow: hidden;
                 position: relative;
 
@@ -399,11 +399,11 @@ body {
     .container {
         padding: 50px 35px;
     }
-    
+
     body {
         header {
             .container {
-                
+
 
                 img {
                     height: 50px;
@@ -412,8 +412,7 @@ body {
                 ul {
                     font-size: 1rem;
 
-                    li {
-                    }
+                    li {}
                 }
             }
         }
@@ -435,7 +434,7 @@ body {
 
                     h1 {
                         font-size: 2.5rem;
-                        margin-top: 0px; 
+                        margin-top: 0px;
                     }
 
                     p {
@@ -444,18 +443,22 @@ body {
 
                     button {
                         margin-top: 50px;
-                        width: 55%; 
+                        width: 55%;
                     }
                 }
             }
 
             .section-2 {
-                padding: 270px 50px; 
+                padding: 50px 50px 320px 50px;
 
                 .label {
                     width: 100%;
-                    margin: 50px auto 170px auto;
+                    margin: auto;
                     display: block;
+
+                    img {
+                        margin-top: 200px;
+                    }
 
                     h3 {
                         margin-top: 50px;
@@ -471,48 +474,41 @@ body {
 
             .section-3 {
                 .container {
-                    background-color: $Main-Dark-Blue;
-                    overflow: hidden;
+                    padding-bottom: 310px;
 
                     img {
-                        width: 50%;
-                        float: left;
+                        width: 100%;
+                        float: none;
                     }
 
                     div {
-                        width: 50%;
-                        float: left;
-                        color: $White;
-                        padding-top: 100px;
-                        padding-left: 60px;
+                        width: 100%;
+                        float: none;
+                        padding-left: 0px;
+                        text-align: center;
 
                         h1 {
-                            font-family: $Headings;
-                            font-size: 2rem;
-                            font-weight: 700;
-                            margin-top: 50px;
+                            margin-top: 0px;
                         }
 
                         p {
-                            margin-top: 25px;
-                            line-height: 25px;
+                            font-size: 1.5rem;
+                            text-align: left;
                         }
 
                         .link {
-                            padding-top: 0;
-                            padding-left: 0;
+                            padding-top: 30px;
 
                             a {
-                                color: $Cyan;
-                                font-size: 1rem;
-                                float: left;
+                                font-size: 1.5rem;
                             }
 
                             img {
+                                float: left;
                                 width: 36px;
-                                height: 22px;
-                                padding-left: 14px;
-                                padding-left: 14px;
+                                height: 36px;
+                                margin-left: 10px;
+                                padding-left: 0;
                             }
                         }
                     }
@@ -521,34 +517,31 @@ body {
 
             .section-4 {
                 .container {
-                    background-color: $Main-Dark-Blue;
-                    background-image: url(./images/bg-quotes.png);
-                    background-repeat: no-repeat;
-                    background-position: 80px 50px;
-                    text-align: center;
+                    background-position: 0px 0px;
 
                     .slide {
-                        width: 30%;
-                        color: $White;
-                        background-color: $Slide-Dark-Blue;
-                        display: inline-block;
-                        border-radius: 10px;
-                        padding: 40px 30px 30px 30px;
-                        margin: 0 15px;
-                        text-align: left;
+                        width: 570px;
+                        height: 320px;
+                        display: block;
+                        padding: 50px 40px;
+                        margin-bottom: 50px;
+
+                        p {
+                            font-size: 1.2rem;
+                            line-height: 2;
+                        }
 
                         div {
-                            margin-top: 20px;
-
                             img {
-                                width: 50px;
-                                border-radius: 100%;
-                                margin-right: 20px;
-                                float: left;
+                                width: 60px;
+                            }
+
+                            h3 {
+                                font-size: 1.2rem;
                             }
 
                             p {
-                                font-size: 0.8rem;
+                                font-size: 1rem;
                             }
                         }
                     }
@@ -556,63 +549,48 @@ body {
             }
 
             .section-5 {
-                background-color: $Main-Dark-Blue;
-                color: $White;
-                text-align: center;
-                padding-top: 120px;
+                padding: 230px 50px 0 50px;
 
                 div {
-                    background-color: $Main-Dark-Blue;
-                    width: 60%;
-                    margin: auto;
-                    margin-bottom: -120px;
-                    padding: 40px 80px;
-                    border-radius: 15px;
-                    box-shadow: 2px 2px 6px $Footer-Dark-Blue, 1px 1px 3px $Footer-Dark-Blue;
-                    overflow: hidden;
-                    position: relative;
-
+                    width: 100%;
+                    margin-bottom: -240px;
+                    padding: 40px;
 
                     h1 {
-                        font-family: $Headings;
-                        font-size: 1.5rem;
+                        font-size: 2rem;
                     }
 
                     p {
-                        margin: 40px 0;
-                        font-size: 0.8rem;
+                        font-size: 1.5rem;
                     }
 
                     input {
-                        width: 60%;
-                        height: 40px;
-                        float: left;
-                        border: none;
-                        border-radius: 30px;
-                        box-shadow: 2px 2px 6px $Footer-Dark-Blue, 1px 1px 3px $Footer-Dark-Blue;
-                        padding-left: 25px;
+                        width: 100%;
+                        height: 60px;
+                        float: none;
+                        border-radius: 50px;
+                        text-align: center;
 
                         &::placeholder {
-                            opacity: 0.6;
-                            font-weight: 700;
+                            font-size: 1rem;
+                            font-weight: 400;
                         }
                     }
 
                     button {
-                        @extend %button;
-                        width: 30%;
-                        height: 40px;
-                        float: right;
+                        width: 100%;
+                        height: 60px;
+                        float: none;
+                        margin-top: 40px;
+                        font-size: 1rem;
                     }
                 }
             }
         }
 
         footer {
-            color: $White;
-            background-color: $Footer-Dark-Blue;
-            padding-top: 120px;
-            padding-bottom: 20px;
+            padding-top: 240px;
+            //            padding-bottom: 20px;
 
             .container {
                 .top {

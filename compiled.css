@@ -181,7 +181,7 @@ body main .section-5 div {
   margin-bottom: -120px;
   padding: 40px 80px;
   border-radius: 15px;
-  box-shadow: 2px 2px 6px #0c1524, 1px 1px 3px #0c1524;
+  box-shadow: 3px 3px 6px #0c1524, 2px 2px 4px #0c1524;
   overflow: hidden;
   position: relative;
 }
@@ -315,12 +315,15 @@ body footer .container .bottom .part-5 img {
     width: 55%;
   }
   body main .section-2 {
-    padding: 270px 50px;
+    padding: 50px 50px 320px 50px;
   }
   body main .section-2 .label {
     width: 100%;
-    margin: 50px auto 170px auto;
+    margin: auto;
     display: block;
+  }
+  body main .section-2 .label img {
+    margin-top: 200px;
   }
   body main .section-2 .label h3 {
     margin-top: 50px;
@@ -331,122 +334,95 @@ body footer .container .bottom .part-5 img {
     margin-top: 50px;
   }
   body main .section-3 .container {
-    background-color: #181e2a;
-    overflow: hidden;
+    padding-bottom: 310px;
   }
   body main .section-3 .container img {
-    width: 50%;
-    float: left;
+    width: 100%;
+    float: none;
   }
   body main .section-3 .container div {
-    width: 50%;
-    float: left;
-    color: white;
-    padding-top: 100px;
-    padding-left: 60px;
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+    text-align: center;
   }
   body main .section-3 .container div h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-top: 50px;
+    margin-top: 0px;
   }
   body main .section-3 .container div p {
-    margin-top: 25px;
-    line-height: 25px;
-  }
-  body main .section-3 .container div .link {
-    padding-top: 0;
-    padding-left: 0;
-  }
-  body main .section-3 .container div .link a {
-    color: #65e2d9;
-    font-size: 1rem;
-    float: left;
-  }
-  body main .section-3 .container div .link img {
-    width: 36px;
-    height: 22px;
-    padding-left: 14px;
-    padding-left: 14px;
-  }
-  body main .section-4 .container {
-    background-color: #181e2a;
-    background-image: url(./images/bg-quotes.png);
-    background-repeat: no-repeat;
-    background-position: 80px 50px;
-    text-align: center;
-  }
-  body main .section-4 .container .slide {
-    width: 30%;
-    color: white;
-    background-color: #21293c;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 40px 30px 30px 30px;
-    margin: 0 15px;
+    font-size: 1.5rem;
     text-align: left;
   }
-  body main .section-4 .container .slide div {
-    margin-top: 20px;
+  body main .section-3 .container div .link {
+    padding-top: 30px;
   }
-  body main .section-4 .container .slide div img {
-    width: 50px;
-    border-radius: 100%;
-    margin-right: 20px;
-    float: left;
-  }
-  body main .section-4 .container .slide div p {
-    font-size: 0.8rem;
-  }
-  body main .section-5 {
-    background-color: #181e2a;
-    color: white;
-    text-align: center;
-    padding-top: 120px;
-  }
-  body main .section-5 div {
-    background-color: #181e2a;
-    width: 60%;
-    margin: auto;
-    margin-bottom: -120px;
-    padding: 40px 80px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 6px #0c1524, 1px 1px 3px #0c1524;
-    overflow: hidden;
-    position: relative;
-  }
-  body main .section-5 div h1 {
-    font-family: "Raleway", sans-serif;
+  body main .section-3 .container div .link a {
     font-size: 1.5rem;
   }
+  body main .section-3 .container div .link img {
+    float: left;
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    padding-left: 0;
+  }
+  body main .section-4 .container {
+    background-position: 0px 0px;
+  }
+  body main .section-4 .container .slide {
+    width: 570px;
+    height: 320px;
+    display: block;
+    padding: 50px 40px;
+    margin-bottom: 50px;
+  }
+  body main .section-4 .container .slide p {
+    font-size: 1.2rem;
+    line-height: 2;
+  }
+  body main .section-4 .container .slide div img {
+    width: 60px;
+  }
+  body main .section-4 .container .slide div h3 {
+    font-size: 1.2rem;
+  }
+  body main .section-4 .container .slide div p {
+    font-size: 1rem;
+  }
+  body main .section-5 {
+    padding: 230px 50px 0 50px;
+  }
+  body main .section-5 div {
+    width: 100%;
+    margin-bottom: -240px;
+    padding: 40px;
+  }
+  body main .section-5 div h1 {
+    font-size: 2rem;
+  }
   body main .section-5 div p {
-    margin: 40px 0;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
   }
   body main .section-5 div input {
-    width: 60%;
-    height: 40px;
-    float: left;
-    border: none;
-    border-radius: 30px;
-    box-shadow: 2px 2px 6px #0c1524, 1px 1px 3px #0c1524;
-    padding-left: 25px;
+    width: 100%;
+    height: 60px;
+    float: none;
+    border-radius: 50px;
+    text-align: center;
   }
   body main .section-5 div input::placeholder {
-    opacity: 0.6;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 400;
   }
   body main .section-5 div button {
-    width: 30%;
-    height: 40px;
-    float: right;
+    width: 100%;
+    height: 60px;
+    float: none;
+    margin-top: 40px;
+    font-size: 1rem;
   }
   body footer {
-    color: white;
-    background-color: #0c1524;
-    padding-top: 120px;
-    padding-bottom: 20px;
+    padding-top: 240px;
   }
   body footer .container .top {
     margin-bottom: 40px;
