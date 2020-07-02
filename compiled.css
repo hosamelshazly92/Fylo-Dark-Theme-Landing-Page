@@ -53,11 +53,10 @@ body main .section-1 img {
   height: 530px;
 }
 body main .section-1 .bg-1 {
-  height: 380px;
-  background-image: url(./images/bg-curvy-desktop.svg);
+  height: 300px;
   background-repeat: no-repeat;
-  background-size: 100% 120%;
-  background-position: 0px -10px;
+  background-size: 100% 100%;
+  background-position: top;
   color: white;
   padding: 0 380px;
 }
@@ -178,10 +177,10 @@ body main .section-5 div {
   background-color: #181e2a;
   width: 60%;
   margin: auto;
-  margin-bottom: -120px;
-  padding: 40px 80px;
+  margin-bottom: -160px;
+  padding: 80px 80px;
   border-radius: 15px;
-  box-shadow: 3px 3px 6px #0c1524, 2px 2px 4px #0c1524;
+  box-shadow: 5px 5px 10px #0c1524, 2px 2px 4px #000;
   overflow: hidden;
   position: relative;
 }
@@ -214,7 +213,7 @@ body main .section-5 div button {
 body footer {
   color: white;
   background-color: #0c1524;
-  padding-top: 120px;
+  padding-top: 160px;
   padding-bottom: 20px;
 }
 body footer .container .top {
@@ -299,7 +298,6 @@ body footer .container .bottom .part-5 img {
   }
   body main .section-1 .bg-1 {
     height: 350px;
-    background-image: url(./images/bg-curvy-mobile.svg);
     background-position: 0px 20px;
     padding: 70px 0;
   }
@@ -311,7 +309,7 @@ body footer .container .bottom .part-5 img {
     font-size: 1.5rem;
   }
   body main .section-1 .bg-1 button {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 55%;
   }
   body main .section-2 {
